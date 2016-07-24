@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>How To Love Soccer</title>
     <link href="https://fonts.googleapis.com/css?family=Exo+2:100" rel="stylesheet">
-    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 </head>
 
 <body>
@@ -20,44 +23,55 @@
         <div class="top-bar-right">
             <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
                 <li class="has-submenu">
-                    <a href="#">One</a>
+                    <a href="#">Articles</a>
                     <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Other</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </div>
     <!-- End Top Bar -->
     <div class="row columns">
-        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-            <ul class="orbit-container">
+        <div class="orbit" id="featured" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <ul class="orbit-container" data-caption="#captionOne">
                 <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
                 <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
                 <li class="orbit-slide is-active">
-                    <img src="http://placehold.it/1200x450">
+                    <img src="images/manUChelseaAlt.jpg">
+                    <h3 class="blogTitle">Manchester United v. Chelsea</h3>
+                    <p>My In-Depth Discovery On Two Of The Most Popular Teams</p>
+                    <a href="#" class="alert button">Read More</a>
                 </li>
                 <li class="orbit-slide">
-                    <img src="http://placehold.it/1200x450">
+                    <img src="images/bestPlayers.jpg">
+                    <h3 class="blogTitle">The Best Players in Fútbol</h3>
+                    <p>I learn what makes these special players so unique.</p>
+                    <a href="#" class="alert button">Read More</a>
                 </li>
                 <li class="orbit-slide">
-                    <img src="http://placehold.it/1200x450">
+                    <img src="images/worldCup.jpg">
+                    <h3 class="blogTitle">The World Cup</h3>
+                    <p>I figure out why this is the most-watched event in the world.</p>
+                    <a href="#" class="alert button">Read More</a>
                 </li>
                 <li class="orbit-slide">
-                    <img src="http://placehold.it/1200x450">
+                    <img src="images/manuStadium.jpg">
+                    <h3 class="blogTitle">The Basics of Fútbol</h3>
+                    <p>I finally learn about the basics.</p>
+                    <a href="#" class="alert button">Read More</a>
                 </li>
             </ul>
         </div>
     </div>
     <div class="row column text-center">
-        <h1>Changing the World Through Design</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
-        <a href="#" class="button large">Learn More</a>
-        <a href="#" class="button large hollow">Learn Less</a>
+        <h1>I Don't Know Anything About Soccer.</h1>
+        <p class="lead">Join me as I finally learn what the hype is all about.</p>
+        <a href="#" class="alert button large hollow">Read My Blog</a>
     </div>
     <hr>
     <div class="row">

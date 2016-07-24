@@ -1,0 +1,92 @@
+/* ///////// */
+
+
+/* Title Bar */
+
+
+/* ///////// */
+
+.menu-text {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5em;
+}
+
+.top-bar,
+.top-bar ul {
+    background-color: #DA020E;
+}
+
+.menu > li {
+    color: white;
+}
+
+.top-bar-right a {
+    color: white;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-top-color: white;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-top-color: white;
+}
+
+
+/* /////////////////// */
+
+
+/* Slider Text Overlay */
+
+
+/* /////////////////// */
+
+#featured h3,
+#featured p,
+#featured .button {
+    position: absolute;
+    color: white;
+}
+
+#featured h3 {
+    top: 35%;
+    margin-left: 10%;
+}
+
+#featured p {
+    top: 50%;
+    margin-left: 10%;
+}
+
+#featured .button {
+    top: 65%;
+    margin-left: 10%;
+}
+
+.blogTitle {
+    font-family: 'Cormorant SC', serif;
+    font-size: 3em;
+    color: white;
+}
+
+
+/* /////// */
+
+
+/* Buttons */
+
+
+/* /////// */
+
+a.alert.button {
+    background-color: #DA020E;
+    color: white;
+}
+
+/*a.alert.button:hover {
+    border-color: #DA020E;
+}*/
+
+.button.hollow.alert {
+	color: white;
+}
