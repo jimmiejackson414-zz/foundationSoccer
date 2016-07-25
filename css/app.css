@@ -30,11 +30,7 @@
 
 
 /* /////////////////// */
-
-
 /* Slider Text Overlay */
-
-
 /* /////////////////// */
 
 #featured h3,
@@ -67,11 +63,7 @@
 
 
 /* /////// */
-
-
 /* Buttons */
-
-
 /* /////// */
 
 a.alert.button {
@@ -93,55 +85,6 @@ a.alert.button {
 /* //////////// */
 /* Progress Bar */
 /* //////////// */
-
-.secondary-tabs .tabs {
-    text-align: center;
-}
-
-.secondary-tabs .tabs i {
-    font-size: 1.5rem;
-    margin-right: 1rem;
-}
-
-.secondary-tabs .tabs li {
-    width: 25%;
-}
-
-.secondary-tabs .tabs li:hover i {
-    font-size: 2rem;
-}
-
-.secondary-tabs .tabs .tab-title > a {
-    background-color: #ffffff;
-    outline: none;
-    font-size: 1.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
-    color: #1E824C;
-}
-
-.secondary-tabs .tabs-content {
-    border: 1px solid #999;
-    border-top: none;
-}
-
-.secondary-tabs .tabs-content h3 {
-    margin-left: 2.7rem;
-}
-
-.secondary-tabs .tabs-content h5 {
-    color: #e74c3c;
-    margin-left: 2.7rem;
-}
-
-.secondary-tabs .tabs-content p {
-    margin-bottom: 0.2rem;
-}
-
-.secondary-tabs .tabs-content .switch {
-    margin-bottom: 1rem;
-}
 
 .progress {
     margin: 0 auto 2rem auto;
