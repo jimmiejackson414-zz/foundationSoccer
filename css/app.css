@@ -37,22 +37,24 @@
 #featured p,
 #featured .button {
     position: absolute;
+    left: 50%;
+  	transform: translateX(-50%);
     color: white;
 }
 
 #featured h3 {
     top: 35%;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 
 #featured p {
     top: 50%;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 
 #featured .button {
     top: 65%;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 
 .blogTitle {
